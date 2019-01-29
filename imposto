@@ -1,0 +1,11 @@
+algoritmo "imposto"
+var
+  preco, imposto : real
+inicio
+  escreva("qual o valor do produto?")
+  leia (preco)
+  imposto <- (preco*60)/100
+  escreval("o valor do imposto é ", imposto)
+  escreva("o custo total fica ", preco + imposto)
+
+fimalgoritmo

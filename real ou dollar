@@ -1,0 +1,9 @@
+algoritmo "Real pra dollar"
+var
+  dollar, reais : real
+inicio
+  Escreva ("reais ")
+  leia (reais)
+  dollar <- reais/2.20
+  Escreva ("isso da ", dollar, " dolares")
+fimalgoritmo

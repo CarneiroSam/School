@@ -1,0 +1,16 @@
+algoritmo "idade 1"
+var
+  Ano_atual: inteiro
+  Ano_nasc : inteiro
+  Idade : inteiro
+inicio
+  Escreva("Em que ano estamos? ")
+  leia (Ano_atual)
+  Escreva ("Em que ano nasceu? ")
+  leia(Ano_Nasc)
+  Idade <- Ano_Atual - Ano_nasc
+  Escreva("sua idade � ", idade)
+
+
+
+fimalgoritmo

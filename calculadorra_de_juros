@@ -1,0 +1,14 @@
+algoritmo "empretimo com juros"
+var
+   porc, emp, parc, valor: real
+inicio
+    escreva("Quanto de emprestimo? ")
+      leia(emp)
+    escreva("em quantas parcelas? ")
+      leia(parc)
+    escreva("qual porcentagem de juros? ")
+      leia(porc)
+ valor <- ((emp * ((100 + porc)/100)))/parc
+escreva("vai pagar ", ((emp * ((100 + porc)/100))), " dividido em ", parc, " parcelas de ", valor )
+
+fimalgoritmo

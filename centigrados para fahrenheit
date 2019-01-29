@@ -1,0 +1,9 @@
+algoritmo "centigrados para fahrenheit"
+var
+  cels, fire : real
+inicio
+  Escreva ("quanto em firerigh? ")
+  leia (fire)
+  cels  <- (fire - 273)
+  Escreva ("isso da ", cels, "� graus celsios")
+fimalgoritmo

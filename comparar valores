@@ -1,0 +1,22 @@
+algoritmo "comparar valores reais"
+var
+    A, B, C :Inteiro
+
+inicio
+    A <- 2
+    B <- 3
+    C <- 5
+      escreval("A = ",A)
+      escreval("B = ",B)
+      escreval("C = ",C)
+
+   escreval("A > B", A>B)
+   escreval("A = B", A=B)
+   escreval("A <> B",A<>B)
+   escreval("A > 2", A>2)
+   escreval("A >= 2", A >= 2)
+   escreval("C = A+B",C = A + B)
+   escreval("C >= B^A",)
+   escreval("B => C % 2", B <= C%2)
+   escreval("1 = C % 2 ", 1 = C % 2)
+  fimalgoritmo

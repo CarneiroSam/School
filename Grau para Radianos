@@ -1,0 +1,10 @@
+algoritmo "grau pra radiano"
+var
+A, N: Real
+
+inicio
+escreva ("qual numero em graus? ")
+leia (N)
+A <- sen(grauprad(N))
+escreva ("em radianos fica ", A)
+fimalgoritmo

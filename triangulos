@@ -1,0 +1,29 @@
+algoritmo "triangulos"
+var
+  L1, L2, L3: Real
+  Eq, Es, tRI : logico
+
+inicio
+
+
+  Escreval ("digite os 3 lados :")
+  Escreval ("Primeiro lado ")
+  Leia (L1)
+  Escreval ("Segundo lado ")
+  Leia (L2)
+  Escreval ("Terceiro lado ")
+  Leia (L3)
+
+Tri <- (L1 < L2 + L3) e (L2 < L1 + L3) e (L3 < L2 + L1)
+Escreval ("Pode formar triangulo? ", Tri)
+se Tri entao
+
+   Eq <- (L1 = L2)e (L2 = L3)
+   Es <- (L1<>L2) e (L1 <> L3) e (L2 <> L3)
+
+   Escreval("O triangulo é Equilatero? ",Eq)
+   Escreval("O triangulo é Escaleno? ",Es)
+senao
+     Escreval("Não é possivel formar triangulo")
+fimse
+fimalgoritmo

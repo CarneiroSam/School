@@ -1,0 +1,12 @@
+algoritmo "de maior?"
+var
+idade : real
+inicio
+escreva("qual sua idade? ")
+leia (idade)
+se (idade>= 18) entao
+   escreval("de maior")
+senao 
+   escreval ("de menor")
+fimse
+fimalgoritmo

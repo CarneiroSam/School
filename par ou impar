@@ -1,0 +1,13 @@
+algoritmo "par ou impar"
+var                    ]
+  N : inteiro
+inicio
+
+  escreva ("Digite um numero Inteiro pra saber se ele é par ou impar :")
+  leia (N)
+  se (N % 2 = 0) entao
+       escreva ("Par")
+  senao
+        escreva ("Impar")
+  fimse
+fimalgoritmo
